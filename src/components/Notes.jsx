@@ -19,7 +19,7 @@ function Notes() {
 
   const handleDelete = (noteId) => {
     dispatch(removeFromNote(noteId))
-    toast.success('Note deleted')
+    toast.success('Note Deleted')
   }
 
   const handleCopy = (text) => {
