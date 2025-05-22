@@ -18,7 +18,7 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Brand */}
         <h2 className="text-2xl md:text-3xl font-bold text-purple-700">
-        Note Nest 
+       <NavLink to="/" >Note Nest </NavLink>
         </h2>
 
         {/* Desktop Nav */}
